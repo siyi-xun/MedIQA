@@ -1,14 +1,14 @@
-# MedIQA: Scalable Prompt-Driven Lightweight Foundation Model for Cross-Modality and Cross-Organ Medical Image Quality Assessment
+# MedIQA: Scalable Prompt-Driven Lightweight Model for Cross-Modality and Cross-Organ Medical Image Quality Assessment
 
-MedIQA is the first general foundation model for medical image quality assessment (IQA), designed to overcome modality heterogeneity and data limitations in clinical settings. Leveraging a novel prompt-driven architecture and cross-modal learning, MedIQA achieves state-of-the-art performance across diverse IQA tasks.
+MedIQA is a universal model for medical image quality assessment (IQA), designed to overcome modality heterogeneity and data limitations in clinical settings. Leveraging a novel prompt-driven architecture and cross-modal learning.
 
-This repository provides the official PyTorch implementation for our work. The framework introduces:
+This repository provides the PyTorch implementation for our work. The framework introduces:
 
 - Cross-Modality: unified quality assessment for CT, MRI, and fundus
 - Lightweight Design: fewer parameters than conventional vision foundation models
-- Prompt-Driven Adaptation:  easy transfer to unseen IQA tasks via domain-aware prompts
-- Multi-Scale Saliency: Automatic identification of diagnostically critical slices
-- Dual Supervision: Combines physical parameter learning with expert annotation fine-tuning
+- Prompt-Driven Adaptation: easy transfer to unseen IQA tasks via domain-aware prompts
+- Multi-Scale Saliency: automatic identification of diagnostically critical slices
+- Dual Supervision: combines physical parameter learning with expert annotation fine-tuning
 
 
 ## Installation
