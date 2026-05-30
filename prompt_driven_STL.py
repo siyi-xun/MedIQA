@@ -404,3 +404,4 @@ class SwinTransformer(nn.Module):
             x = self.scale * x + _x + info
         x = rearrange(x, 'b (h w) c -> b c h w', h=self.patches_resolution[0], w=self.patches_resolution[1])
         return x
+        
